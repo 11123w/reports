@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>美光 vs 海力士 投研对照 · 2026-05-14</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+    line-height: 1.7;
+    color: #1a1a1a;
+    background: #fafafa;
+  }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  h2 {
+    font-size: 20px;
+    margin: 36px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #e5e5e5;
+  }
+  h3 { font-size: 16px; margin: 20px 0 8px; color: #444; }
+  .meta { color: #888; font-size: 13px; margin-bottom: 24px; }
+  .row { display: flex; gap: 16px; margin: 16px 0; }
+  .card {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 16px 20px;
+  }
+  .card.mu { border-top: 4px solid #1565c0; }
+  .card.sk { border-top: 4px solid #e65100; }
+  .card-title { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+  .card-sub { color: #666; font-size: 13px; margin-bottom: 12px; }
+  .big { font-size: 26px; font-weight: 600; }
+  .pos { color: #2e7d32; }
+  .neg { color: #c62828; }
+  .muted { color: #888; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    background: #fff;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 9px 11px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #f0f0f0; font-weight: 600; }
+  .key { background: #fff8e1; padding: 12px 16px; border-left: 4px solid #f9a825; margin: 12px 0; }
+  .risk { background: #ffebee; padding: 12px 16px; border-left: 4px solid #c62828; margin: 12px 0; }
+  .info { background: #e3f2fd; padding: 12px 16px; border-left: 4px solid #1565c0; margin: 12px 0; }
+  blockquote {
+    border-left: 3px solid #888;
+    margin: 12px 0;
+    padding: 4px 16px;
+    color: #555;
+    background: #f5f5f5;
+  }
+  .footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #e5e5e5; color: #999; font-size: 12px; }
+  @media (max-width: 640px) {
+    .row { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<h1>美光 vs SK海力士 — 御三家美光路线 vs 海力士路线</h1>
+<div class="meta">2026-05-14 · 数据：MU Q2 FY26（截至 2026.2）· Hynix 1Q26（截至 2026.3）</div>
+
+<div class="info">
+  <b>核心结论先讲</b>：两家都在卖同样的故事（HBM 卖爆 + 数据中心驱动）、估值倍数几乎一样（P/S ~6.5x）、一年都涨了 ~10 倍。<b>真正的差别在三个点</b>：HBM 份额（21% vs 57%）、产品结构纯度、买入摩擦。
+</div>
+
+<h2>1. 一眼看全</h2>
+
+<div class="row">
+  <div class="card mu">
+    <div class="card-title">MU · Micron</div>
+    <div class="card-sub">NASDAQ · 2026-05-13 收盘</div>
+    <div class="big">$803.63</div>
+    <div class="muted">52w: $90.93 → $818.67 · 近一年 ~9×</div>
+    <hr style="border:none;border-top:1px solid #eee;margin:12px 0;">
+    <div>市值：<b>~$880 B</b></div>
+    <div>Q3 折年营收：~$134 B</div>
+    <div>P/S：<b>~6.5×</b></div>
+    <div>HBM 份额：<b>21%</b></div>
+    <div>买入摩擦：<span class="pos">无（直接 NASDAQ）</span></div>
+  </div>
+  <div class="card sk">
+    <div class="card-title">000660.KS · SK Hynix</div>
+    <div class="card-sub">KRX · 2026-05-13 收盘</div>
+    <div class="big">₩1,958,000</div>
+    <div class="muted">52w: ₩196,500 → ₩1,994,000 · 近一年 ~10×</div>
+    <hr style="border:none;border-top:1px solid #eee;margin:12px 0;">
+    <div>市值：<b>~₩1,386 T (~$990 B)</b></div>
+    <div>1Q26 折年营收：~$152 B</div>
+    <div>P/S：<b>~6.5×</b></div>
+    <div>HBM 份额：<b>57%（Counterpoint Q4'25）</b></div>
+    <div>买入摩擦：<span class="neg">韩国券商 / KRX 通道</span></div>
+  </div>
+</div>
+
+<h2>2. 业绩对照</h2>
+
+<table>
+<tr><th>指标</th><th>MU (Q2 FY26, 截至 2026.2)</th><th>Hynix (1Q26, 截至 2026.3)</th></tr>
+<tr><td>季度营收</td><td>$238 亿，YoY +196%</td><td>KRW 52.58T (~$380 亿)，YoY <b>+198%</b></td></tr>
+<tr><td>毛利率</td><td>~70%（Q3 guidance 81%）</td><td>—</td></tr>
+<tr><td>营业利润率</td><td>—</td><td><b>72%</b>（超过 TSMC ~50%，史上首次）</td></tr>
+<tr><td>DRAM bit 增长</td><td>正常增长</td><td><b>持平</b>（ASP 单季 +mid-60%）</td></tr>
+<tr><td>关键 driver</td><td>HBM3e + 数据中心</td><td>HBM + 高密度 DIMM + LPDDR5X mix</td></tr>
+<tr><td>资产负债表</td><td>正常运营</td><td>两个季度从净负债翻成 <b>$250 亿净现金</b></td></tr>
+<tr><td>下季 guidance</td><td>$335 亿（创纪录）</td><td>HBM 订单已超 <b>3 年</b> 名义产能</td></tr>
+</table>
+
+<div class="key">
+  <b>Hynix 的关键 anomaly</b>：DRAM bit 持平 + ASP +65% = 这不是"量价齐升"周期，是"纯 mix + 纯定价"周期。所有以前的存储周期教科书在这里失效。<br><br>
+  两种解读（不互斥）：(a) HBM 占用太多晶圆产能 → 出货 bits 自然降 / (b) Hynix 故意压产能保价 → 净现金让它有资格不抢量。
+</div>
+
+<h2>3. 护城河性质差别</h2>
+
+<table>
+<tr><th></th><th>MU</th><th>Hynix</th></tr>
+<tr><td>HBM 地位</td><td>第三（21%），追赶者</td><td>第一（57%），定价者</td></tr>
+<tr><td>NVIDIA 绑定</td><td>美国本土 + Jensen 站台 $1000 亿新厂</td><td>HBM3e/HBM4 主供，长期 LTA 锁定</td></tr>
+<tr><td>NAND 业务</td><td>有，但拖累</td><td>有（含 Solidigm 收购），321 层 QLC 量产</td></tr>
+<tr><td>客户结构</td><td>一个客户 13% 营收</td><td>HBM 几乎全部卖给 NVIDIA / AMD / 自用</td></tr>
+<tr><td>护城河类型</td><td>结构+地缘（美国本土）</td><td>结构+技术领先（HBM4 抢先）</td></tr>
+</table>
+
+<h2>4. 同样估值，不同含义</h2>
+
+<p>两家 P/S 都是 ~6.5×，但分子（市值）和分母（营收）背后的"含金量"不一样：</p>
+
+<ul>
+  <li><b>Hynix 的 6.5× 含金量更高</b>：72% 营业利润率 + HBM 57% 份额 + 净现金 $250 亿。同样的营收 1 块钱，Hynix 落到 EPS 比 MU 多。</li>
+  <li><b>MU 的 6.5× 包含 "美国溢价"</b>：地缘红利、本土制造补贴、NVIDIA 战略备份。但 HBM 份额只有 21%，未来弹性主要靠"份额追赶"，不是"份额维持"。</li>
+</ul>
+
+<h2>5. 哪个更脆弱？</h2>
+
+<div class="row">
+  <div class="card mu">
+    <div class="card-title">MU 的脆弱点</div>
+    <ul style="padding-left:20px;margin:8px 0;">
+      <li>HBM 份额 21%，份额能否扩大是 thesis 核心，但 Hynix 在 HBM4 又抢先一步</li>
+      <li>$800 已 price in HBM 故事的相当部分</li>
+      <li>Q4 没 guidance，能见度差</li>
+      <li>NAND 业务在韩台扩产周期里相对暴露</li>
+    </ul>
+  </div>
+  <div class="card sk">
+    <div class="card-title">Hynix 的脆弱点</div>
+    <ul style="padding-left:20px;margin:8px 0;">
+      <li>72% 营业利润率是历史峰值，任何 ASP 回落都直接打利润</li>
+      <li>韩国设备进口 +129.7% — 自己也在大举扩产</li>
+      <li>"flat bits + ASP 涨"这种 mix 红利能持续几个季度是真正的未知数</li>
+      <li>客户高度集中于 NVIDIA，AMD 上量是否吃份额是变数</li>
+    </ul>
+  </div>
+</div>
+
+<h2>6. 买入摩擦（实操层）</h2>
+
+<table>
+<tr><th></th><th>MU</th><th>Hynix</th></tr>
+<tr><td>主要渠道</td><td>NASDAQ 直接买</td><td>KRX 000660（需韩国券商账户）</td></tr>
+<tr><td>ADR</td><td>—</td><td>HXSCL / HXSCF（OTC，<span class="neg">流动性差</span>）</td></tr>
+<tr><td>港股通</td><td>不适用</td><td><span class="neg">不通</span>（韩股不在港股通）</td></tr>
+<tr><td>陆股通</td><td>不适用</td><td><span class="neg">不通</span></td></tr>
+<tr><td>盈透 IBKR</td><td><span class="pos">支持</span></td><td><span class="pos">支持 KRX（需开通韩股权限）</span></td></tr>
+<tr><td>富途/老虎</td><td><span class="pos">支持</span></td><td><span class="muted">部分支持 KRX，按券商而定</span></td></tr>
+</table>
+
+<div class="risk">
+  <b>实操结论</b>：纯效率上 MU > Hynix。如果通过 IBKR 等通道买 KRX 000660 没问题，那 Hynix 是更"纯"的 HBM 暴露。Hynix ADR (HXSCL/HXSCF) 不建议 — OTC 报价稀薄，价差大。
+</div>
+
+<h2>7. 我的判断</h2>
+
+<p><b>不是 "海力士 vs 美光" 二选一的问题，是 "买 HBM 故事的什么版本" 的问题。</b></p>
+
+<ul>
+  <li>想买 <b>HBM 份额第一 + 高利润率纯度</b> → Hynix。承担 KRW 汇率风险 + 买入摩擦。</li>
+  <li>想买 <b>HBM 份额追赶者 + 地缘溢价 + 流动性</b> → MU。承担 21% 份额能否扩大的执行风险。</li>
+  <li>想买 <b>整个 HBM 主题</b> → 两个分开持。但要注意：两家估值倍数已经趋同，所以两个都买不是分散，是 doubling down。</li>
+</ul>
+
+<p>两家共同的脆弱点是一样的：<b>韩国海关 5月旬报设备进口 +129.7%</b>，全行业在大举扩产。HBM 结构故事真实，但 12-18 个月后产能集中释放是确定的。今天 P/S 6.5× 是建立在"sold out + mix 红利持续"两个假设上的，任何一个松动估值都会被重估。</p>
+
+<p>同样的 6.5×，Hynix 那个 6.5× 更扎实（72% 营业利润率自己就证明了壁垒），MU 那个 6.5× 更依赖未来份额扩大的兑现。</p>
+
+<div class="footer">
+  Source: Micron IR Q2 FY26 · CNBC 2026-03-18 · siliconanalysts.com Hynix 1Q26 · stockanalysts.com KRX 000660 · en.sedaily.com · Counterpoint HBM share Q4'25 · Yahoo Finance · 韩国关税厅 5月旬报<br>
+  本文不构成仓位 / 操作 / 止损建议
+</div>
+
+</body>
+</html>
